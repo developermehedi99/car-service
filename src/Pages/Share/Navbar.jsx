@@ -9,7 +9,7 @@ const Navbar = () => {
         <li><Link to='/contact'>Contact</Link></li>
     </>
     return (
-        <div className="navbar h-20 items-center bg-base-100 mb-5">
+        <div className="navbar h-20 items-center bg-base-100 mb-5 ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

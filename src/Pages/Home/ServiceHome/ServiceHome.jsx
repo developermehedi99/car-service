@@ -11,21 +11,23 @@ const ServiceHome = () => {
 
 
     return (
-        <div className="">
+        <div className="my-12">
             <div className="text-center mb-12">
                 <h3 className="text-[#FF3811] text-xl font-bold">Service</h3>
                 <h1 className="text-5xl font-bold text-black mb-5">Our Service Area</h1>
                 <p className="text-[#737373] text-base">the majority have suffered alteration in some form, by injected humour, or randomised <br></br> words which do not look even slightly believable. </p>
                 <h1>service:{services.length}</h1>
             </div>
-            <div className="md:grid grid-cols-3 gap-6">
+            <div className="md:grid grid-cols-3 gap-6 mb-8">
                 {
                     services.map(service => <ServicesShow
-                    key={service._id}
-                    service={service}
+                        key={service._id}
+                        service={service}
                     ></ServicesShow>)
                 }
-                <button className="text-center mx-auto btn btn-outline">More Services</button>
+            </div>
+            <div className="text-center">
+                <button className="btn btn-outline">More Services</button>
             </div>
         </div>
     );

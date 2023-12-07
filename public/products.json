@@ -1,0 +1,39 @@
+[
+    {
+      "img": "https://i.ibb.co/Pz5grZ1/1.png",
+      "review": "4.5",
+      "title": "Product 1",
+      "price": "29.99"
+    },
+    {
+      "img": "https://i.ibb.co/Z825t5R/2.png",
+      "review": "4.2",
+      "title": "Product 2",
+      "price":" 49.99"
+    },
+    {
+      "img": "https://i.ibb.co/GVH36y5/3.png",
+      "review": 4.8,
+      "title": "Product 3",
+      "price": 79.99
+    },
+    {
+      "img": "https://i.ibb.co/9nPW5dj/4.png",
+      "review": 3.9,
+      "title": "Product 4",
+      "price": 39.99
+    },
+    {
+      "img": "https://i.ibb.co/djVKHCx/5.png",
+      "review": 4.1,
+      "title": "Product 5",
+      "price": 59.99
+    },
+    {
+      "img": "https://i.ibb.co/nPb4pY0/6.png",
+      "review": 4.7,
+      "title": "Product 6",
+      "price": 69.99
+    }
+  ]
+  
